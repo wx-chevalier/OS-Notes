@@ -29,7 +29,7 @@ std::thread::spawn(|| {
 
 Rust 编译器，不仅能够通过类型安全在编译期检测出这一错误，告诉你这个错误产生的原因：“may outlive borrowed value”（我们暂且不管它是什么意思），并且，它还进一步推荐你加入 “move” 解决这个错误。为了方便你进一步了解错误详情，它还贴心地给出一个命令行 “rustc --explain E0373”，让你可以从知识库中获取更多的信息：
 
-![图片](https://assets.ng-tech.icu/item/b0f3cc7fb5ed8173a41bf84e28fb1b59.png)
+![图片](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/b0f3cc7fb5ed8173a41bf84e28fb1b59.png)
 
 这种程度的体验，一旦你适应了 Rust，就很难离得开。Rust 语言的这种极致用户体验不仅仅反映在编译器上，整个语言的工具链包括 rustup、cargo 等，都是如此简单易用、善解人意。
 
@@ -37,7 +37,7 @@ Rust 编译器，不仅能够通过类型安全在编译期检测出这一错误
 
 截止 2021 年，主流的互联网公司都把 Rust 纳入主力语言，比如开发操作系统 Redox/Fuchsia、高性能网络 Tokio、应用的高并发后端 TiKV，甚至客户端软件本身（飞书）。我们欣喜地看到，Rust 除了在其传统的系统开发领域，如操作系统、设备驱动、嵌入式等方向高歌猛进之外，还在服务端高性能、高并发场景遍地开花。
 
-![Rust 的应用面](https://assets.ng-tech.icu/item/7c2bafba5faaa77f8b2778fe16a44019.jpg)
+![Rust 的应用面](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/7c2bafba5faaa77f8b2778fe16a44019.jpg)
 
 最近两年，几乎每隔一段时间我们就能听到很多知名互联网企业用 Rust 重构其技术栈的消息。比如 Dropbox 用 Rust 重写文件同步引擎、Discord 用 Rust 重写其状态服务。其实，**这些公司都是业务层面驱动自然使用到 Rust 的**。
 
@@ -97,13 +97,13 @@ Rust 如此受人喜爱，有如此广泛的用途，且当前各大互联网厂
 
 这就是回归本原的重要性，也就是常说的第一性原理：回归事物最基础的条件，将其拆分成基本要素解构分析，来探索要解决的问题。
 
-![img](https://assets.ng-tech.icu/item/605094c2dc6992997e31f687dc908751.jpg)
+![img](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/605094c2dc6992997e31f687dc908751.jpg)
 
 精准学习之后，我们就需要**刻意练习**了。刻意练习，就是用精巧设计的例子，通过练习进一步巩固学到的知识，并且在这个过程中尝试发现学习过程中的不自知问题，让自己从“我不知道我不知道”走向“我知道我不知道”，最终能够在下一个循环中弥补知识的漏洞。
 
 这个过程就像子思在《中庸》里谈治学的方法：博学之，审问之，慎思之，明辨之，笃行之。我们学习就要这样，学了没有学会绝不罢休，不断在学习 - 构建 - 反思这个循环中提升自己。Rust 的学习，也是如此。
 
-![img](https://assets.ng-tech.icu/item/af815a24607879d14d9b2701c0491a98.jpg)
+![img](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/af815a24607879d14d9b2701c0491a98.jpg)
 
 根据这种学习思路，在这个专栏里，我会带着你循序渐进地探索 Rust 的基本概念和知识、开发的原则和方法，力求掌握 Rust 开发的精髓；同时，每一部分内容，都用一个或多个实操项目帮你巩固知识、查漏补缺。
 
@@ -145,7 +145,7 @@ Rust 还有目前最优秀的异步处理模型，我相信假以时日，这种
 
 我衷心希望，通过这个专栏的学习，**你可以从基本概念出发，一步步跨过下图的愚昧之巅，越过绝望之谷，向着永续之原进发**！通过一定的努力，最终自己也可以用 Rust 构建各种各样的系统，让自己职业生涯中多一门面向未来的利器。
 
-![img](https://assets.ng-tech.icu/item/1cf03ee698cyy875e8fac45b8ed5f88d.jpg)
+![img](https://ngte-superbed.oss-cn-beijing.aliyuncs.com/item/1cf03ee698cyy875e8fac45b8ed5f88d.jpg)
 
 我非常希望你能坚持学下去，和我一直走到最后一讲。这中间，你如果有想不明白的地方，可以先多思考多琢磨，如果还有困惑，欢迎你在留言区问我。
 
